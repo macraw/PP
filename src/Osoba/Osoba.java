@@ -14,9 +14,9 @@ public class Osoba {
     }
     public Osoba(String imie, String nazwisko){
     this.imie = imie;
-     this.nazwisko = nazwisko;
+    this.nazwisko = nazwisko;
     }
 public String toString(){
-    return imie+": " + nazwisko+"(ojciec:" +ojciec+", matka: "+matka;
-}    
+       return imie+" "+ nazwisko+"\n"+"\t"+"(ojciec:)" +ojciec+"\n"+"\t"+"(matka:) "+matka;
+    }
 }
